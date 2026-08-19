@@ -11,7 +11,7 @@
 
 ```js
 const priyanshu = {
-  identity: "BTech 2nd Year • Code Architect",
+  identity: "BTech 3rd Year • Code Architect",
   location: "India 🇮🇳",
   motto: "Shin-chan's chaos meets developer's precision",
   
