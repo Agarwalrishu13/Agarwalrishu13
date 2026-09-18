@@ -128,6 +128,56 @@ deploy: "Cloud Native"
 
 ---
 
+<!-- NANO UNIVERSE — FLAGSHIP PROJECTS -->
+<div align="center">
+
+## 🧠 THE NANO-UNIVERSE
+### *AI built bottom-up: the engine, the brain, and everything between*
+
+Most people *call* AI APIs. I built the whole stack myself instead.
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+### ⚙️ [nanollama.c](https://github.com/Agarwalrishu13/nanollama.c)
+
+**A complete LLM inference engine in ~1,400 lines of dependency-free C.**
+
+Transformer forward pass · BPE tokenizer from scratch · hand-rolled thread
+pool · int8 quantization. No OpenMP, no BLAS, no API keys.
+
+<img src="https://github.com/Agarwalrishu13/nanollama.c/raw/main/docs/demo.gif" width="100%"/>
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### 🧠 [nanobrain](https://github.com/Agarwalrishu13/nanobrain)
+
+**I trained my own LLM from scratch — and it runs on my own engine.**
+
+Hand-written Llama-2 transformer · self-trained BPE tokenizer · exporter to
+my C engine's format. Flagship: **16.9M params, 35 hours on CPU** (the GPU
+driver NaN'd twice — the log tells all).
+
+<img src="https://github.com/Agarwalrishu13/nanobrain/raw/main/benchmark/evolution-tiny.png" width="100%"/>
+
+</td>
+</tr>
+</table>
+
+```
+nanobrain (train) ──exports──► .bin ──runs on──► nanollama.c (inference)
+```
+
+*The engine caught a bug in the exporter's first output. They keep each other honest.*
+
+</div>
+
+<br/>
+
+---
+
 <!-- STATS IN CREATIVE LAYOUT -->
 <div align="center">
 
